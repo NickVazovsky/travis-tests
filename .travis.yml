@@ -8,7 +8,6 @@ env:
 
 install:
   - pip install pipenv
-  - pipenv install --system -d
 
 script:
   - pytest
